@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=DM+Serif+Display&family=Open+Sans:wght@400;600&family=Playfair:opsz,wght@5..1200,500&display=swap");
+/* @import "font-awesome/css/font-awesome.min.css"; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  background-color: #f9fcfb;
+}
+
+.homeland {
+  /* background-image: url("../assets/landing007.png"); */
+  /* background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  height: 30vh;
+  width: 49vh;
+}
+
+.homeland::before {
+}
+
+.aboutus_homeland {
+  /* background-image: url("../assets/aboutus.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90%; */
+}
